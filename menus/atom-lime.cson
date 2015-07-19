@@ -1,0 +1,34 @@
+
+'context-menu':
+  '[data-path$=xml]': [
+      { label: 'Set as active Lime/OpenFL file', command: 'lime:set-lime-file'},
+      { type: 'separator' },
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'lime'
+      'submenu': [
+        {
+          'label': 'Status'
+          'command': 'lime:status'
+        },
+        {
+          'label': 'Set target'
+          'command': 'lime:set-target'
+        },
+        { type: 'separator' },
+        {
+          'label': 'Clear active project'
+          'command': 'lime:clear-project'
+        },
+        { type: 'separator' },
+        {
+          'label': 'Toggle log view'
+          'command': 'lime:toggle-log-view'
+        }
+      ]
+    ]
+  }
+]

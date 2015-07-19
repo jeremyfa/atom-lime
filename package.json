@@ -1,0 +1,23 @@
+{
+  "name": "lime",
+  "main": "./lib/lime.js",
+  "version": "0.0.0",
+  "description": "atom.io support for the haxe lime/openfl framework.",
+  "activationCommands": {},
+  "consumedServices": {
+    "haxe-completion.provider": {
+      "versions": {
+        "1.0.0": "completion_hook"
+      }
+    }
+  },
+  "repository": "https://github.com/jeremyfa/atom-lime",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-message-panel": "~1.2.2",
+    "atom-space-pen-views": "~2.0.4"
+  }
+}
