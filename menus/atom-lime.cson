@@ -1,9 +1,4 @@
 
-'context-menu':
-  '[data-path$=xml]': [
-      { label: 'Set as active Lime/OpenFL file', command: 'lime:set-lime-file'},
-      { type: 'separator' },
-  ]
 'menu': [
   {
     'label': 'Packages'
