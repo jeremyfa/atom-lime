@@ -13,3 +13,6 @@
 
 ## 0.3.2
 * Fix issues on OS X El Capitan
+
+## 0.3.3
+* Fix an issue when setting active lime/openfl file.
