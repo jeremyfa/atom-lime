@@ -1,7 +1,7 @@
 {
   "name": "lime",
   "main": "./lib/lime.js",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "atom.io support for the haxe lime/openfl framework.",
   "activationCommands": {},
   "consumedServices": {
